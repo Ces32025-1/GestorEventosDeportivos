@@ -29,15 +29,6 @@ public class JugadorServlet extends HttpServlet {
 
         }
 
-//        private int id;
-//        private String nombre;
-//        private String apellido;
-//        private String fechaNacimiento;
-//        private String nacionalidad;
-//        private String posicion;
-//        private int numero;
-//        private int equipoId;
-//        private boolean estadoActivo;
 
     }
 

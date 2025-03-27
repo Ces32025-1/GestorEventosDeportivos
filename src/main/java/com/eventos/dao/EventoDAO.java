@@ -8,7 +8,7 @@ public class EventoDAO {
     private static List<Evento> eventos = new ArrayList<>();
 
     public void agregarEvento(Evento evento) {
-        // ✅ Verificación para evitar errores con null
+        // Verificación para evitar errores con null
         if (evento.getEquiposParticipantes() == null || evento.getEquiposParticipantes().size() < 2) {
             throw new RuntimeException("Un evento debe tener al menos dos equipos participantes.");
         }
