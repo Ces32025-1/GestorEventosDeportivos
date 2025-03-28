@@ -1,4 +1,4 @@
-package com.eventos;
+package com.eventos.dao;
 
 import com.eventos.dao.EquipoDAO;
 import com.eventos.dao.JugadorDAO;
